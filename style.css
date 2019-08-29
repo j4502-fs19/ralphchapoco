@@ -1,7 +1,12 @@
 body {
-  align-content: center;
-  background-color: blue;
-  margin: 0 auto;
+  font-family: Times;
+  background-color: pink;
+}
+
+#container{
+    width:800px;
+    margin: 10px auto;
+
 }
 img {
   border-style: none;
