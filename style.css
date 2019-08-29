@@ -1,9 +1,10 @@
 body {
   align-content: center;
   background-color: blue;
+  margin: 0 auto;
 }
 img {
-  border: none;
+  border-style: none;
 }
 p {
   font-family: serif;
