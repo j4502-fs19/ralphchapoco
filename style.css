@@ -2,18 +2,43 @@ body {
   font-family: Times;
   background-color: pink;
 }
-
+h1 {
+  background-color: white;
+}
 #container{
-    width:800px;
+    width:400px;
     margin: 10px auto;
 
 }
 img {
-  border-style: none;
+  border: none;
 }
 p {
-  font-family: serif;
+  font-family: 'Merriweather', serif, sans-serif;
+  font-size: 25px;
+  color: red;
+  text-align: center;
+  font-weight: 600;
+  background-color: yellow;
 }
 h2 {
-  font-family: sans-serif;
+  font-family: 'PT Serif', serif, sans-serif;
+  font-size: 30px;
+  color: green;
+  text-align: center;
+  font-weight: 800;
+  background-color: blue;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+#second {
+  color: red;
+}
+#third {
+  color: purple;
 }
