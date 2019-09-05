@@ -14,7 +14,7 @@ img {
   border: none;
 }
 p {
-  font-family: 'Merriweather', serif, sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 25px;
   color: red;
   text-align: center;
@@ -22,7 +22,7 @@ p {
   background-color: yellow;
 }
 h2 {
-  font-family: 'PT Serif', serif, sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 30px;
   color: green;
   text-align: center;
