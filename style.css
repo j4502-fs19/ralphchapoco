@@ -4,6 +4,7 @@ body {
 }
 h1 {
   background-color: white;
+  font-family: serif;
 }
 #container{
     width:400px;
@@ -30,7 +31,7 @@ h2 {
   background-color: blue;
 }
 li {
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 a {
