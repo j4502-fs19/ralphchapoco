@@ -1,14 +1,28 @@
 body {
   font-family: Times;
   background-color: pink;
+  font-size: 12px;
+}
+#sections {
+  background-color: gray;
+  font-family: Times;
+  font-size: 1em;
+  padding: 15px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
 }
 h1 {
   background-color: white;
   font-family: serif;
+  font-size: 1.10em;
 }
 #container{
-    width:400px;
-    margin: 10px auto;
+    width: 500px;
+    margin: 30px auto;
 
 }
 img {
@@ -16,7 +30,7 @@ img {
 }
 p {
   font-family: 'Merriweather', serif;
-  font-size: 25px;
+  font-size: 1em;
   color: red;
   text-align: center;
   font-weight: 600;
@@ -24,7 +38,7 @@ p {
 }
 h2 {
   font-family: 'PT Serif', serif;
-  font-size: 30px;
+  font-size: 1.5em;
   color: green;
   text-align: center;
   font-weight: 800;
@@ -42,4 +56,18 @@ a {
 }
 #third {
   color: purple;
+}
+
+@media screen and (max-width:400px) {
+
+  body {
+    font-size: 1.5em;
+  }
+
+  #sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 }
