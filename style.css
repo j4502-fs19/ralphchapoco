@@ -84,6 +84,10 @@ grid-row: 1;
 grid-column: 1/4;
 }
 
+#about li {
+color: red;
+
+}
 #news {
 background-color: #660066;
 grid-row: 2;
