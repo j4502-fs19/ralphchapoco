@@ -4,7 +4,10 @@ body {
   font-size: 12px;
 }
 
+#sections {
+  display: none;
 }
+
 #sections {
   background-color: gray;
   font-family: Times;
@@ -115,6 +118,10 @@ grid-column: 1/5;
 
   p {
     font-size: 15px;
+  }
+
+  .menu-trigger {
+    display: none;
   }
 
   #sections {
